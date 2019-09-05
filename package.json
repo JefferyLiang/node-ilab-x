@@ -1,0 +1,23 @@
+{
+  "name": "node-ilab-x",
+  "version": "0.0.1",
+  "description": "ilab-x xjwt sdk in node.js",
+  "main": "dist/main.bundle.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "npx webpack",
+    "test": "npx mocha ./test/index.test.js"
+  },
+  "keywords": [
+    "ilab-x"
+  ],
+  "author": "Jeffery Liang",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
+  }
+}
